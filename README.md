@@ -4,7 +4,7 @@ This repo is our solution for [NTIRE 2025 Low Light Image Enhancement Challenge]
 
 ## Description
 
-![net](https://github.com/minyan8/RainHistoNet/blob/main/figs/net.png)
+![net](https://github.com/minyan8/imagine/blob/main/figure/net.pdf)
 
 ## Installation, Training, and Testing
 
