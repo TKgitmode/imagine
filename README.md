@@ -2,9 +2,11 @@
 
 This repo is our solution for [NTIRE 2025 Low Light Image Enhancement Challenge](https://codalab.lisn.upsaclay.fr/competitions/21636).
 
+Our paper has been accepted to the CVPR NTIRE Workshop. The arXiv version is available [here](https://arxiv.org/abs/2504.14075).
+
 ## 🏆 Final Results
 
-We are proud to share that our solution placed **2nd** in the **final testing phase** of the competition!  
+Our solution placed **2nd** in the **final testing phase** of the competition!  
 This result highlights the effectiveness and robustness of our approach under rigorous evaluation.  
 Thank you to the organizers and all participants for an exciting and competitive challenge!
 
