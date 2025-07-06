@@ -8,7 +8,7 @@ La presente versión incluye:
 - Guía de uso para ejecutar el entrenamiento y evaluación.
 - Enlaces de descarga para los conjuntos de datos utilizados.
 
-> Nota: Este repositorio es utilizado para fines experimentales en una tesis de investigación. Todo el crédito del modelo original es para sus autores.
+> Nota: Este repositorio es utilizado para fines experimentales en un paper de investigación. Todo el crédito del modelo original es para sus autores.
 
 ---
 
