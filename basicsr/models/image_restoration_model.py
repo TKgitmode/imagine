@@ -20,9 +20,6 @@ import torch.nn.functional as F
 from functools import partial
 import torch.nn as nn
 
-
-
-
 class Mixing_Augment:
     def __init__(self, mixup_beta, use_identity, device):
         self.dist = torch.distributions.beta.Beta(torch.tensor([mixup_beta]), torch.tensor([mixup_beta]))
@@ -51,7 +48,6 @@ class Mixing_Augment:
             augment = random.randint(0, len(self.augments) - 1)
             target, input_ = self.augments[augment](target, input_)
         return target, input_
-
 
 class ImageCleanModel(BaseModel):
     """Base Deblur model for single image deblur."""
@@ -169,7 +165,7 @@ class ImageCleanModel(BaseModel):
         self.optimizer_g.zero_grad()
         
         loss_dict = OrderedDict() 
-        print(self.lq_path)
+        #print(self.lq_path)
 
         preds1, preds2, preds3 = self.net_g(self.lq, self.lq_s)
         l_pix, loss_dict = self.cri_pix(preds1, preds2, preds3, self.gt)

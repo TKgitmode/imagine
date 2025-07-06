@@ -40,3 +40,14 @@ def create_model(opt):
     logger = get_root_logger()
     logger.info(f'Model [{model.__class__.__name__}] is created.')
     return model
+
+from .image_restoration_model import ImageCleanModel
+
+__all__ = ['ImageCleanModel']
+
+def build_model(opt):
+    model_type = opt['model_type']
+    if model_type == 'ImageCleanModel':
+        return ImageCleanModel(opt)
+    else:
+        raise NotImplementedError(f'Model type [{model_type}] not recognized.')
