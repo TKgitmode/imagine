@@ -49,7 +49,7 @@ parser.add_argument('--input_dir', default='test/input', type=str)
 parser.add_argument('--input_s_dir', default='test/input_s', type=str)
 parser.add_argument('--gt_dir', default='test/target', type=str)
 parser.add_argument('--result_dir', default='test_v1-results', type=str)
-parser.add_argument('--weights', default='weights/net_g_227000.pth', type=str)
+parser.add_argument('--weights', default='weights/net_g_485000.pth', type=str)
 parser.add_argument('--dataset', default='default', type=str)
 args = parser.parse_args()
 
