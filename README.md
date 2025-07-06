@@ -6,7 +6,8 @@ La presente versión incluye:
 - Código adaptado para permitir **entrenamiento desde cero**.
 - Instrucciones para el uso de un **modelo preentrenado con 485,000 iteraciones**.
 - Guía de uso para ejecutar el entrenamiento y evaluación.
-- Enlaces de descarga para los conjuntos de datos utilizados.
+- Enlaces de descarga para los conjuntos de datos utilizados. LOLv1 - [Google Drive](https://drive.google.com/file/d/1vhJg75hIpYvsmryyaxdygAWeHuiY_HWu/view?usp=sharing) y LOLv2 con LOLv2-synthetic  - [Google Drive](https://drive.google.com/file/d/1OMfP6Ks2QKJcru1wS2eP629PgvKqF2Tw/view?usp=sharing)
+
 
 > Nota: Este repositorio es utilizado para fines experimentales en un paper de investigación. Todo el crédito del modelo original es para sus autores.
 
